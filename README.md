@@ -62,18 +62,28 @@ Let’s assume the LED turns on fully when detecting AC voltage.
 
 Step 1: Base Current to Q1
 The antenna detects an EM field, inducing a small voltage (~mV), providing a small base current to Q1. This current is minimal and difficult to measure, but let's denote it as:
-• IB1 ~ few MA
+• IB1 ~ few MA 
+
 Step 2: Q1 and Q2 as Darlington Pair
+
 Transistors Q1 and Q2 are in a Darlington configuration, giving a high current gain:
+
 • Total gain: Brotal = Ba1 x Baz
 • Assume each has B = 100, so Btotal = 100 x 100 = 10,000
 So even a small base current into Q1 (say 1pA) can rIt in:
   • Ic = 10,000 x 1A = 10 mA
+  
 So even a small base current into Q1 (say 1M.A) can result in:
-• Ic2 = 10, 000 × 1мA = 10 mA Step 3: Current Through LED and Q3
+
+• Ic2 = 10, 000 × 1мA = 10 mA 
+
+Step 3: Current Through LED and Q3
+
 Q3 receives base current from Q2 collector (through R3):
 • Let's assume Q3 is fully turned on (saturation).
-Now calculate current through LED and Q3 using Ohm's Law: *
+
+Now calculate current through LED and Q3 using Ohm's Law: 
+
 • Supply voltage Vcc = 9V
 • LED forward voltage VLED ~ 2V
 • V_CE(sat) of Q3 ~ 0.3V

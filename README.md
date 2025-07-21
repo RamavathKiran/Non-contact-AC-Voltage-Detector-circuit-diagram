@@ -43,6 +43,7 @@ This era is very convenient, if you want a buzzer sound, use only one. It has it
 <img width="557" height="440" alt="image" src="https://github.com/user-attachments/assets/8b2de85a-5113-4d3e-83af-93a84ed3c6d8" />
 
 Circuit Overview
+
 1.Antenna/Probe: Detects the AC electromagnetic field.
 
 2.Q1, Q2, Q3 (NPN transistors): Amplify the weak signal.
@@ -56,6 +57,7 @@ Circuit Overview
 6.S1: On/off switch.
 
 Current Path and Calculation
+
 Let’s assume the LED turns on fully when detecting AC voltage.
 
 Step 1: Base Current to Q1

@@ -7,7 +7,9 @@ Therefore, it is safer than the neon screwdriver when tested on AC wires and low
 How does Non-contact AC Voltage Detector circuit work?
 Usually, there will be an electric and magnetic field surrounding a live wire created by the flowing of AC current. We can use this phenomenon to detect if a wire still has current inside it, by using an antenna as a detector. Which is the main principle of these circuits.
 
+
 <img width="490" height="200" alt="image" src="https://github.com/user-attachments/assets/f40784fd-abf4-443c-9100-f0429a8105d0" />
+
 When we put the antenna near AC wires if it detects a magnetic field around that wire, the LED will glow dimly and at the same time, the buzzer emits a high frequency buzzing.
 
 The nearer the antenna from the AC wires, the brighter the LED will get. The buzzing of the buzzer will also be louder.
@@ -18,8 +20,11 @@ Transistors Version
 The antenna will converter the magnetic field into a very very small amount of current, and then amplify it with a very high gain amplifier.
 
 This amplified current will then power a LED or buzzer for our visual or sound feedback.
+
 <img width="551" height="317" alt="image" src="https://github.com/user-attachments/assets/29768fe5-5c44-40cc-849a-a2f80bf56b54" />
+
 For the High gain amplifier, we pick the Darlington Transistor pair because it is easy and high efficiency. To make it easier to understand see the illustration below
+
 <img width="589" height="377" alt="image" src="https://github.com/user-attachments/assets/394ac650-8d91-418b-b063-6ce45c8b7ec4" />
 
 Here is a step-by-step process.

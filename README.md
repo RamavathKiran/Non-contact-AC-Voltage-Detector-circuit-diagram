@@ -21,6 +21,7 @@ This amplified current will then power a LED or buzzer for our visual or sound f
 <img width="551" height="317" alt="image" src="https://github.com/user-attachments/assets/29768fe5-5c44-40cc-849a-a2f80bf56b54" />
 For the High gain amplifier, we pick the Darlington Transistor pair because it is easy and high efficiency. To make it easier to understand see the illustration below
 <img width="589" height="377" alt="image" src="https://github.com/user-attachments/assets/394ac650-8d91-418b-b063-6ce45c8b7ec4" />
+
 Here is a step-by-step process.
 
 #1 The antenna inducts very little electrical energy or AC main signal that frequency of 50Hz (60Hz) into B of Q1.
@@ -35,6 +36,7 @@ Then, see the full circuit diagram. We add a piezo buzzer across LED1 and R3 to 
 
 This era is very convenient, if you want a buzzer sound, use only one. It has its own buzzer circuit, reducing the circuit to less.
 <img width="557" height="440" alt="image" src="https://github.com/user-attachments/assets/8b2de85a-5113-4d3e-83af-93a84ed3c6d8" />
+
 Circuit Overview
 Antenna/Probe: Detects the AC electromagnetic field.
 

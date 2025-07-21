@@ -54,6 +54,10 @@ Circuit Overview
 5.B1 (9V Battery): Powers the circuit.
 
 6.S1: On/off switch.
+
+Current Path and Calculation
+Let’s assume the LED turns on fully when detecting AC voltage.
+
 Step 1: Base Current to Q1
 The antenna detects an EM field, inducing a small voltage (~mV), providing a small base current to Q1. This current is minimal and difficult to measure, but let's denote it as:
 • IB1 ~ few MA

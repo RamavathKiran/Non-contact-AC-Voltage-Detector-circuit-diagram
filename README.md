@@ -97,6 +97,9 @@ Now calculate current through LED and Q3 using Ohm's Law:
 • R3 = 1kQ
 
 Voltage across R3 = 9V - 2V (LED) - 0.3V (Q3) = 6.7V
+
 So:
+
 ILED = 6.7V/1kΩ = 6.7mA
+
 This is the current flowing through R3 - LED1 → Q3 → GND when AC is detected.

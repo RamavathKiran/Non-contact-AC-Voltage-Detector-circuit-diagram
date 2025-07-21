@@ -72,7 +72,7 @@ Transistors Q1 and Q2 are in a Darlington configuration, giving a high current g
 ​
 • Assume each has β = 100, so βtotal = 100 x 100 = 10,000
 
-  So even a small base current into Q1 (say 1pA) can rIt in:
+  So even a small base current into Q1 (say 1μA) can result in:
   
   • Ic = 10,000 x 1A = 10 mA
   
@@ -89,9 +89,13 @@ Q3 receives base current from Q2 collector (through R3):
 Now calculate current through LED and Q3 using Ohm's Law: 
 
 • Supply voltage Vcc = 9V
+
 • LED forward voltage VLED ~ 2V
+
 • V_CE(sat) of Q3 ~ 0.3V
+
 • R3 = 1kQ
+
 Voltage across R3 = 9V - 2V (LED) - 0.3V (Q3) = 6.7V
 So:
 ILED = 6.7V/1kΩ = 6.7mA

@@ -1,7 +1,7 @@
 # Non-contact-AC-Voltage-Detector-circuit-diagram
 What is a Non-contact AC voltage detector?
 
-It is an AC voltage detector, that can be used to test live wires without any connection, hence the name.
+It is an AC voltage detector, that can be used to test live wires without any connection.
 
 Therefore, it is safer than the neon screwdriver when tested on AC wires and lowers the chance of getting an electric shock while working with high AC voltage.
 How does Non-contact AC Voltage Detector circuit work?

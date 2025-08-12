@@ -21,7 +21,8 @@ The antenna will converter the magnetic field into a very very small amount of c
 
 This amplified current will then power a LED or buzzer for our visual or sound feedback.
 
-<img width="551" height="317" alt="image" src="https://github.com/user-attachments/assets/29768fe5-5c44-40cc-849a-a2f80bf56b54" />
+![image](https://github.com/user-attachments/assets/ab5e3223-7494-45e2-9446-62bf9de9fe8d)
+
 
 For the High gain amplifier, we pick the Darlington Transistor pair because it is easy and high efficiency. To make it easier to understand see the illustration below
 
